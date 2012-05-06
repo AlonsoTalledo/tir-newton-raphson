@@ -47,10 +47,13 @@ public class TIR {
     public double getError(double tir1, double tir2) {
         return (tir1 - tir2) / tir1;
     }
-
+    
+    /**
+     * Calcula la TIR utilizando el metodo Newton-Raphson
+     * @return la tasa interna de retorno.
+     */
     public double getTIR() {
         double tir1 = 0.0;
-        
         
         while(true) {
             double tir2 = tir1;

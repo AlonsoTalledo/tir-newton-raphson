@@ -110,13 +110,13 @@ public class VAN {
     /**
      * Calcula Valor Actual Neto (VAN) o Valor Presente Neto (VPN) para una tasa
      * de interes especifica.
-     * <CODE>
+     * <PRE>
      * Ejemplos de tasa:
      *   Costo del dinero a largo plazo
      *   Costo del capital
      *   Costo de oportunidad
      *   Tasa de rentabilidad
-     * </CODE>
+     * </PRE>
      * @param tasa es la tasa de interes
      * @return VAN
      */
@@ -134,13 +134,13 @@ public class VAN {
     /**
      * Calcula la primera derivada del Valor Actual Neto (VAN) o 
      * Valor Presente Neto (VPN) para una tasa de interes especifica.
-     * <CODE>
+     * <PRE>
      * Ejemplos de tasa:
      *   Costo del dinero a largo plazo
      *   Costo del capital
      *   Costo de oportunidad
      *   Tasa de rentabilidad
-     * </CODE>
+     * </PRE>
      * @param tasa es la tasa de interes
      * @return VAN'
      */
