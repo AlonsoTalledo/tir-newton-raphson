@@ -14,6 +14,14 @@ public class Main {
      * @param args the command line arguments
      */
     public static void main(String[] args) {
-        // TODO code application logic here
+        
+        VAN van = new VAN(7);
+        van.setInversion(18000.0);
+        van.setFlujos(3000.0, 3000.0, 2000.0, 4000.0, 4000.0, 4000.0, 7000.0);
+        
+        TIR tir = new TIR(van);
+        
+        System.out.println(tir.getTIR(0.38));
+        
     }
 }
