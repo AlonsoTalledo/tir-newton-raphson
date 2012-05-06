@@ -21,7 +21,7 @@ public class Main {
         
         TIR tir = new TIR(van);
         
-        System.out.println(tir.getTIR(0.38));
+        System.out.println(tir.getTIR());
         
     }
 }

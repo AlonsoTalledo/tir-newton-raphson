@@ -15,11 +15,7 @@ public final class Util {
     private Util(){}
     
     public static double setPrecision(double valor, int precision){
-        
-        DecimalFormat df = new DecimalFormat("#.00000");
-        
-        
+        DecimalFormat df = new DecimalFormat("#.0000");
         return Double.parseDouble(df.format(valor));
-        
     }
 }
