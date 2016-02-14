@@ -1,0 +1,1 @@
+Con este proyecto se quiere poder calcular la VAN (VPN) y la TIR.
